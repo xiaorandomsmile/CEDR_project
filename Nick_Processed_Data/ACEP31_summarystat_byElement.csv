@@ -1,0 +1,27 @@
+"","Facet_text","median","min","max","q_25","q_75","q_25_15IQR","q_75_15IQR","q_10","q_90"
+"1","6770 Insertion of indwelling Foley catheter ordered",0.000183720135830624,0,0.123594314849923,0.000154180597703032,0.00204120772937069,-0.00267636009979845,0.00487174842687217,6.55162016327387e-05,0.0261673111718792
+"2","6775 Date and time of insertion of indwelling Foley catheter ordered",0.000183720135830624,0,0.123594314849923,0.000154180597703032,0.00204120772937069,-0.00267636009979845,0.00487174842687217,6.55162016327387e-05,0.0261673111718792
+"3","6780 Hospital admission or observation ordered",7.25420595688389e-05,0,0.269174865831843,0.00552433618249666,0.150190365134307,-0.211474707245219,0.367189408562023,0.000404171467977114,0.214298660538524
+"4","6785 Date and time of hospital admission or observation ordered",7.25420595688389e-05,0,0.269342576028623,0.00552433618249666,0.150190365134307,-0.211474707245219,0.367189408562023,0.000404171467977114,0.214298660538524
+"5","6790 Indwelling Foley catheter inserted",0,0,0.123594314849923,0.000645577792123951,0.0284818569903949,-0.0411088410052824,0.0702362757878013,0.000113721654877522,0.0381962218159659
+"6","6795 Date and time indwelling Foley catheter inserted",0,0,0.123594314849923,0.000645577792123951,0.0284818569903949,-0.0411088410052824,0.0702362757878013,0.000113721654877522,0.0381962218159659
+"7","6800 Indwelling Foley Catheter Device Application",0,0,0,NA,NA,NA,NA,NA,NA
+"8","6805 Date and time of Indwelling Foley Catheter Device Application",0,0,0,NA,NA,NA,NA,NA,NA
+"9","6806 Date and time of removal of Indwelling Foley Catheter Device",0,0,0,NA,NA,NA,NA,NA,NA
+"10","6810 Indwelling Foley catheter ordered due to urinary retention or obstruction",0.00368455320778277,0.000477707006369427,0.124677649164537,0.00246183062209836,0.0054161182137005,-0.00196960076530487,0.00984754960110372,0.00145729742970298,0.00997389999556616
+"11","6815 Date and time indwelling Foley catheter ordered due to urinary retention or obstruction",0.00368455320778277,0.000477707006369427,0.124677649164537,0.00246183062209836,0.0054161182137005,-0.00196960076530487,0.00984754960110372,0.00145729742970298,0.00997389999556616
+"12","6820 Indwelling Foley catheter ordered for urinary output measurement",0,0,0,NA,NA,NA,NA,NA,NA
+"13","6825 Date and time indwelling Foley catheter ordered for urinary output measurement",0,0,0,NA,NA,NA,NA,NA,NA
+"14","6830 Indwelling Foley catheter ordered for preoperative use for selected surgical procedures",0,0,0,NA,NA,NA,NA,NA,NA
+"15","6835 Date and time indwelling Foley catheter ordered for preoperative use for selected surgical procedures",0,0,0,NA,NA,NA,NA,NA,NA
+"16","6840 Indwelling Foley catheter ordered for open sacral or perineal wounds for incontinent patient",0,0,0,NA,NA,NA,NA,NA,NA
+"17","6845 Date and time indwelling Foley catheter ordered for open sacral or perineal wounds for incontinent patient",0,0,0,NA,NA,NA,NA,NA,NA
+"18","6850 Indwelling Foley catheter ordered due to immobilization",0,0,0,NA,NA,NA,NA,NA,NA
+"19","6855 Date and time indwelling Foley catheter ordered due to immobilization",0,0,0,NA,NA,NA,NA,NA,NA
+"20","6860 Indwelling Foley Catheter ordered for comfort measures",0,0,0,NA,NA,NA,NA,NA,NA
+"21","6865 Date and time indwelling Foley Catheter ordered for comfort measures",0,0,0,NA,NA,NA,NA,NA,NA
+"22","6870 Indwelling Foley Catheter ordered for institution specific indication",0,0,0.0476435480551554,0.00775300017678093,0.0292062255082708,-0.0244268378204539,0.0613860635055056,0.00759137780691443,0.0402686190364016
+"23","6875 Date and time indwelling Foley Catheter ordered for institution specific indication",0,0,0.0476435480551554,0.00775300017678093,0.0292062255082708,-0.0244268378204539,0.0613860635055056,0.00759137780691443,0.0402686190364016
+"24","8500 Emergency Department Visit",0.966020310359904,0,1,0.950068624225088,0.979776771158783,0.905506403824545,1.02433899155933,0.929789833975381,0.994634205819369
+"25","8505 Date and Time of arrival (onset) to Emergency Department",1,1,1,1,1,1,1,1,1
+"26","8506 Date and Time of departure (abatement) from Emergency Department",1,1,1.0509371356829,1,1.0000036550242,0.999994517463706,1.00000913756049,1,1.00025673373979

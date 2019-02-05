@@ -1,0 +1,18 @@
+"","Facet_text","median","min","max","q_25","q_75","q_25_15IQR","q_75_15IQR","q_10","q_90"
+"1","6000 Diagnosis of asthma",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","6005 Onset date and timing of diagnosis of asthma",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","6010 Diagnosis of COPD",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","6015 Onset date and timing of diagnosis of COPD",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5","6020 Tobacco Use Screening",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","6025 Date & timing of tobacco use screening",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","6030 Tobacco use cessation counseling",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8","6031 Date of Tobacco use cessation counseling",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","6033 Date of Tobacco Use Cessation medication",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10","6035 Tobacco Use Cessation medication",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"11","6040 Tobacco User",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"12","6046 Tobacco Use Start Date",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13","6050 Limited Life Expectancy",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","6055 Onset date & timing of limited life expectancy",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","6060 EncounterACEP 25",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"16","7100 Start date and time of administration for tobacco use cessation medication",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"17","8506 Date and Time of departure (abatement) from Emergency Department",NA,NA,NA,NA,NA,NA,NA,NA,NA
