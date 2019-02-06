@@ -20,8 +20,7 @@ measures<- elementsByFacility_tidy %>%
 
 #iterate over each measure to generate a dot plot of element values, 
 #excluding those that are perfect ie = 1
-plots_without1 
-map(
+plots_without1 <- map(
   measures,
   ~ ggplot(
     elementsByFacility_tidy %>%
@@ -43,8 +42,7 @@ map(
 )
 
 #iterate over each measure to generate a dot plot of element values
-plots_with1 
-map(
+plots_with1 <- map(
   measures,
   ~ ggplot(
     elementsByFacility_tidy %>%
