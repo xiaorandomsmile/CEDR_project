@@ -20,29 +20,53 @@ measures<- elementsByFacility_tidy %>%
 
 #iterate over each measure to generate a dot plot of element values, 
 #excluding those that are perfect ie = 1
-plots_without1 <- map(measures,
-                      ~ggplot(elementsByFacility_tidy %>% 
-                                filter(measure == .x, prop != 1),
-                              aes(x = prop, y = element)) +
-                        geom_jitter(alpha = 0.5, height = 0, width = .03) +
-                        theme_bw() +
-                        labs(x = "Value", y = "Element", title = .x))
+plots_without1 
+map(
+  measures,
+  ~ ggplot(
+    elementsByFacility_tidy %>%
+      filter(measure == .x, prop != 1),
+    aes(x = prop, y = element)
+  ) +
+    geom_jitter(
+      alpha = 0.5,
+      height = 0,
+      width = .03
+    ) +
+    theme_bw() +
+    labs(
+      x = "Value", 
+      y = "Element", 
+      title = paste("Measure", .x),
+      caption = "With Jitter"
+      )
+)
 
 #iterate over each measure to generate a dot plot of element values
-plots_with1 <- map(measures,
-                   ~ggplot(elementsByFacility_tidy %>% 
-                             filter(measure == "X19"),
-                           aes(x = prop, y = element)) +
-                     geom_point(alpha = 0.5) +
-                     theme_bw() +
-                     labs(x = "Value", y = "Element", title = "X19"))
+plots_with1 
+map(
+  measures,
+  ~ ggplot(
+    elementsByFacility_tidy %>%
+      filter(measure == .x),
+    aes(x = prop, y = element)
+  ) +
+    geom_jitter(alpha = 0.5, height = 0, width = .03) +
+    theme_bw() +
+    labs(
+      x = "Value",
+      y = "Element",
+      title = paste("Measure", .x),
+      caption = "With Jitter"
+    )
+)
 
 #ggsave the plots without 1
 map2(plots_without1, 
      measures, 
-     ~ ggsave(plot = .x, filename = paste0("plots_without1/",.y, ".tiff")))
+     ~ ggsave(plot = .x, filename = paste0("mat_plots/plots_without1/",.y, ".tiff")))
 
 #ggsave the plots with 1
 map2(plots_with1, 
      measures, 
-     ~ ggsave(plot = .x, filename = paste0("plots_with1/",.y, ".tiff")))
+     ~ ggsave(plot = .x, filename = paste0("mat_plots/plots_with1/",.y, ".tiff")))
